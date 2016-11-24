@@ -36,5 +36,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Я хочу чути кожне слово, яке ти будеш казати...</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Я хочу розуміти і записувати все що почую...</string>
 </dict>
 </plist>
