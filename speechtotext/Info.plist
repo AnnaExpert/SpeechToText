@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Speech to text</string>
+	<string>Стенографіст</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Я хочу чути кожне слово, яке ти будеш казати...</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Я хочу розуміти і записувати все що почую...</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -36,9 +40,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Я хочу чути кожне слово, яке ти будеш казати...</string>
-	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>Я хочу розуміти і записувати все що почую...</string>
 </dict>
 </plist>
