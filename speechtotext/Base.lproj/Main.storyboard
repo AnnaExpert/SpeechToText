@@ -38,7 +38,7 @@
                                     <action selector="startRecordingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nTf-wy-I3P"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Тут я буду писати все сказане..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3gb-Yg-4n4">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Тут я буду писати все що почую..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3gb-Yg-4n4">
                                 <rect key="frame" x="16" y="158" width="343" height="350"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
