@@ -4,7 +4,6 @@
 //
 //  Created by Alexander Iashchuk on 11/24/16.
 //  Copyright © 2016 Alexander Iashchuk. All rights reserved.
-// Initial commit from Xcode
 
 import UIKit
 
@@ -13,10 +12,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let siri = 13
         return true
     }
 
@@ -42,6 +39,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
-
