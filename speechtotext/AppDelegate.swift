@@ -4,7 +4,7 @@
 //
 //  Created by Alexander Iashchuk on 11/24/16.
 //  Copyright © 2016 Alexander Iashchuk. All rights reserved.
-//
+// Initial commit from Xcode
 
 import UIKit
 
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let siri = 13
         return true
     }
 
