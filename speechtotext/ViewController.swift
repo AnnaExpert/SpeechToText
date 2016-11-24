@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import Speech
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SFSpeechRecognizerDelegate {
+    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var microphoneButton: UIButton!
+    
+    private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
+    private var recognitionTask: SFSpeechRecognitionTask?
+    private let audioEngine = AVAudioEngine()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let siti = 13
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +30,3 @@ class ViewController: UIViewController {
 
 
 }
-
