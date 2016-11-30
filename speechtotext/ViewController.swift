@@ -16,7 +16,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
     private let audioEngine = AVAudioEngine()
-    private let speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "en"))
+    private let speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "uk"))
     
     override func viewDidLoad() {
         super.viewDidLoad()
